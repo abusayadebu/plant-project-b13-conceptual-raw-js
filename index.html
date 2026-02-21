@@ -32,12 +32,12 @@
     </header>
     <hr class="text-gray-300">
     <!-- main -->
-    <main>
+    <main id="main-container">
         <!-- button section -->
          <section class="my-5 flex gap-5">
-            <button class="bg-black text-white text-xl px-8 py-2 rounded-lg">All</button>
-            <button class="bg-gray-400 text-xl px-8 py-2 rounded-lg">Thriving</button>
-            <button class="bg-gray-400 text-xl px-8 py-2 rounded-lg">Struggling</button>
+            <button onclick="toggleStyle('all-filter-button')" id="all-filter-button" class="bg-black text-white text-xl px-8 py-2 rounded-lg">All</button>
+            <button onclick="toggleStyle('thriving-filter-button')" id="thriving-filter-button" class="bg-gray-400 text-xl px-8 py-2 rounded-lg">Thriving</button>
+            <button onclick="toggleStyle('struggling-filter-button')" id="struggling-filter-button" class="bg-gray-400 text-xl px-8 py-2 rounded-lg">Struggling</button>
          </section>
 
          <!-- plant card section -->
