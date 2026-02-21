@@ -15,17 +15,17 @@
         <!-- cards section -->
         <section class="grid grid-cols-3 gap-8">
             <div class="bg-[#FFF7CD] px-4 py-3 rounded-2xl ">
-                <p id="total" class="text-xl font-bold">0</p>
+                <p id="total-count" class="total text-xl font-bold">0</p>
                 <p class="text-xl font-bold">Total</p>
             </div>
 
             <div class="bg-[#769353] px-4 py-3 rounded-2xl ">
-                <p id="thriving" class="text-xl font-bold">0</p>
+                <p id="thriving-count" class="text-xl font-bold">0</p>
                 <p class="text-xl font-bold">Thriving</p>
             </div>
 
             <div class="bg-[#EBBF58] px-4 py-3 rounded-2xl">
-                <p id="struggling" class="text-xl font-bold">0</p>
+                <p id="struggling-count" class="text-xl font-bold">0</p>
                 <p class="font-bold text-xl">Struggling</p>
             </div>
         </section>
@@ -41,13 +41,13 @@
          </section>
 
          <!-- plant card section -->
-          <section class="space-y-5">
+          <section id="all-cards" class="space-y-5">
 
             <!-- plant-1 -->
-            <div class="border-2 border-gray-400 p-8 rounded-md">
+            <div class="plant-card border-2 border-gray-400 p-8 rounded-md">
             <div class="flex items-center justify-between">
                 <div>
-                    <h4 class="font-bold text-xl">Plant Name 1</h4>
+                    <h4 class="plant-name font-bold text-xl">Plant Name 1</h4>
                 <p class="text-gray-400">Latine Name</p>
                 </div>
                 <button class="bg-red-300 text-red-700 px-4 py-2 rounded-lg">Delete</button>
@@ -64,18 +64,18 @@
                 <div class="border border-gray-400 px-4 w-[150px] text-gray-700 rounded-md">No Applicable</div>
              </div>
 
-             <p class="text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
+             <p class="plant-description text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
              
              <!-- buttons -->
-             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Struggling</button>
-             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Thriving</button>
+             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Thriving</button>
+             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Struggling</button>
             </div>
 
             <!-- plant-2 -->
-            <div class="border-2 border-gray-400 p-8 rounded-md">
+            <div class="plant-card border-2 border-gray-400 p-8 rounded-md">
             <div class="flex items-center justify-between">
                 <div>
-                    <h4 class="font-bold text-xl">Plant Name 1</h4>
+                    <h4 class="plant-name font-bold text-xl">Plant Name 2</h4>
                 <p class="text-gray-400">Latine Name</p>
                 </div>
                 <button class="bg-red-300 text-red-700 px-4 py-2 rounded-lg">Delete</button>
@@ -92,18 +92,18 @@
                 <div class="border border-gray-400 px-4 w-[150px] text-gray-700 rounded-md">No Applicable</div>
              </div>
 
-             <p class="text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
+             <p class="plant-description text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
              
              <!-- buttons -->
-             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Struggling</button>
-             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Thriving</button>
+             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Thriving</button>
+             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Struggling</button>
             </div>
 
             <!-- plant-3 -->
-            <div class="border-2 border-gray-400 p-8 rounded-md">
+            <div class="plant-card border-2 border-gray-400 p-8 rounded-md">
             <div class="flex items-center justify-between">
                 <div>
-                    <h4 class="font-bold text-xl">Plant Name 1</h4>
+                    <h4 class="plant-name font-bold text-xl">Plant Name 3</h4>
                 <p class="text-gray-400">Latine Name</p>
                 </div>
                 <button class="bg-red-300 text-red-700 px-4 py-2 rounded-lg">Delete</button>
@@ -120,18 +120,18 @@
                 <div class="border border-gray-400 px-4 w-[150px] text-gray-700 rounded-md">No Applicable</div>
              </div>
 
-             <p class="text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
+             <p class="plant-description text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
              
              <!-- buttons -->
-             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Struggling</button>
-             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Thriving</button>
+             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Thriving</button>
+             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Struggling</button>
             </div>
 
             <!-- plant-4 -->
-            <div class="border-2 border-gray-400 p-8 rounded-md">
+            <div class="plant-card border-2 border-gray-400 p-8 rounded-md">
             <div class="flex items-center justify-between">
                 <div>
-                    <h4 class="font-bold text-xl">Plant Name 1</h4>
+                    <h4 class="plant-name font-bold text-xl">Plant Name 4</h4>
                 <p class="text-gray-400">Latine Name</p>
                 </div>
                 <button class="bg-red-300 text-red-700 px-4 py-2 rounded-lg">Delete</button>
@@ -148,11 +148,11 @@
                 <div class="border border-gray-400 px-4 w-[150px] text-gray-700 rounded-md">No Applicable</div>
              </div>
 
-             <p class="text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
+             <p class="plant-description text-lg text-gray-400 my-5">New leaf unfurling by the east window</p>
              
              <!-- buttons -->
-             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Struggling</button>
-             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Thriving</button>
+             <button class="border border-green-400 text-green-400 text-xl px-4 py-2 rounded-md">Thriving</button>
+             <button class="border border-red-400 text-red-400 text-xl px-4 py-2 rounded-md ml-5">Struggling</button>
             </div>
           </section>
     </main>
@@ -161,5 +161,8 @@
     <footer>
 
     </footer>
+
+    <!-- script -->
+     <script src="script.js"></script>
 </body>
 </html>
